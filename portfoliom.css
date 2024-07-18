@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(218, 228, 179);
+    color: white;
+}
+
+.left {
+    font-size: 16px;
+    font-family: fantasy;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    position:sticky;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 30px;
+}
+
+nav ul li a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(100, 100, 192);
+    font-size: 1.04rem;
+}
+
+
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px;
+}
+
+.leftsection {
+    font-size: 40px;
+    width: 400pxpx;
+    height: 400px;
+    color: violet;
+}
+
+.leftsection span {
+    color: black;
+}
+
+.rightsection img {
+    height: 400px;
+    width: 400px
+}
+
+.secondsec {
+    max-width: 80vw;
+    margin: auto;
+    color: black;
+    font-weight: 1000px;
+    display: flex;
+    margin: 100px 100px;
+}
+
+hr {
+    border: 0;
+    background-color: darkblue;
+    height: 2px;
+    margin: 10px
+}
+
+.leftsec {
+    width: 500px;
+}
+
+.rightsec {
+    padding: 0px 0px 0px 200px;
+}
+
+.rightsec img {
+    height: 200px;
+    width: 350px
+}
+.thirdsec{
+    color: black;
+    padding: 20px 0px 0px 50px;
+    margin: 100px 100px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"], input[type="email"], textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #333;
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #eae2e2;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+main img{
+    width:100% ;
+    height:40% ;
+}
+#confo{
+    color: black;
+}
+#contact-form{color: black;}
